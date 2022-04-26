@@ -1,2 +1,4 @@
-if __name__ == 'main':
-    print('Hello word')
+import random
+
+if __name__ == '__main__':
+    print(random.randint(1, 100))
