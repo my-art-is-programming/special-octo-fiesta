@@ -24,7 +24,7 @@ def binarysearch(n: int, x: list):
 
 
 parser = argparse.ArgumentParser(description='Process some number.')
-parser.add_argument('integers', type=int, help='number to find in array')
+parser.add_argument('-n', dest='integers', default=0, type=int, help='number to find in array')
 args = parser.parse_args()
 print(args.integers)
 
